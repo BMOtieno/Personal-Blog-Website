@@ -1,0 +1,32 @@
+.right-column, .left-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 20px;
+    grid-template-areas: 
+    "ca cb cc"
+    "cd ce cf";
+}
+.card{
+    border: 2px solid #000000;
+    padding: 10px;
+}
+.A{
+    grid-area: ca;
+}
+.B{
+    grid-area: cb;
+}
+.C{
+    grid-area: cc;
+}
+.D{
+    grid-area: cd;
+}
+.E{
+    grid-area: ce;
+}
+.F{
+    grid-area: cf;
+}

@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import "BlogPost.css";
+@import "box.css";
+@import "responsive.css";
 *{
     background: url("https://st.hzcdn.com/simgs/42e12a880838acb1_4-7690/home-design.jpg");
     color: #000000;
     font-family: 'Lora';
+}
+.parag{
+    border: 2px solid #000000;
 }
 img{
     width: 550px;
@@ -16,26 +22,7 @@ button{
     display: inline;
     padding: 5px;
 }
-/*for mobile phone sized screens */
-@media(min-width: 320px) and (max-width: 1050px){
-    .wrapper{
-        display: grid; 
-        justify-content: center;  
-    }
-    *{
-        background: #ffffff;
-    }
-    form{
-        display: flex;
-        margin-left: 300px;
-    }
-    footer{
-        display: flex;
-    }
-    .box1{
-        min-width: 100%;
-    }  
-}
+
 
 
 

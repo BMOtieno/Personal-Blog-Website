@@ -20,26 +20,4 @@ nav.sub{
     text-align: left;
     margin-left: 370px;
 }
-.box1{
-    align-self: stretch;
-    padding: 30px;
-}
-.col{
-    flex-direction: column;
-}
-.box2, .box3, .box4{
-    min-height: 30%;
-    width: 400px;  
-    padding: 30px;
-}
-.box2{
-    align-self: flex-end;
-}
-.box3{
-    align-self: flex-start;
-}
-.box4{
-    align-self: center;
-}
-
 

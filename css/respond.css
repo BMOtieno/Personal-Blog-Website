@@ -1,0 +1,9 @@
+/*for mobile phone sized screens */
+@media(min-width: 320px) and (max-width: 900px){
+    .right-column, .left-column{
+        grid-template-areas: 
+        "ca cb cc"
+        "cd ce cf";
+        background: url("https://images.squarespace-cdn.com/content/v1/5cb06a6cd7456246c1156693/1555590334816-ITHCU6A5ZITXAAT257DT/Whatsapp-Backgrounds-SM.jpg");
+    }
+}

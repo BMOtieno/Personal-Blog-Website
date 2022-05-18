@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import "footer.css";
+@import "card.css";
+@import "respond.css";
 *{
     font-family: Playfair Display;
 }
@@ -8,52 +11,11 @@
     text-align: center;
     background: url("https://cdn.wallpapersafari.com/27/32/jt4AoG.jpg");
 }
-.right-column, .left-column{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    justify-content: center;
-    gap: 20px;
-    grid-template-areas: 
-    "ca cb cc"
-    "cd ce cf";
-}
-.card{
-    border: 2px solid #000000;
-    padding: 10px;
-}
-.A{
-    grid-area: ca;
-}
-.B{
-    grid-area: cb;
-}
-.C{
-    grid-area: cc;
-}
-.D{
-    grid-area: cd;
-}
-.E{
-    grid-area: ce;
-}
-.F{
-    grid-area: cf;
-}
-footer, nav{
-    background-color: #f5f5f5;
-    color: #000000; 
-    position: fixed;
-}
-nav{
-    top: 0;
-}
-footer{
-    bottom: 0;
-}
-footer li, nav li{
-    display: inline;
-    padding: 10px;
+img{
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 body{
     background: url("https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg");
@@ -62,14 +24,6 @@ form{
     text-align: right;
     margin-top: -5px;
 }
-/*for mobile phone sized screens */
-@media(min-width: 320px) and (max-width: 900px){
-    .right-column, .left-column{
-        grid-template-areas: 
-        "ca cb cc"
-        "cd ce cf";
-        background: url("https://images.squarespace-cdn.com/content/v1/5cb06a6cd7456246c1156693/1555590334816-ITHCU6A5ZITXAAT257DT/Whatsapp-Backgrounds-SM.jpg");
-    }
-}
+
 
 

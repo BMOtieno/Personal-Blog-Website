@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+*{
+    background: url("https://st.hzcdn.com/simgs/42e12a880838acb1_4-7690/home-design.jpg");
+    color: #000000;
+    font-family: 'Lora';
+}
+img{
+    width: 550px;
+    height: 400px;
+}
+footer{
+    bottom: 0px;
+    margin-left: 370px;
+}
+button{
+    display: inline;
+    padding: 5px;
+}
+/*for mobile phone sized screens */
+@media(min-width: 320px) and (max-width: 1050px){
+    .wrapper{
+        display: grid; 
+        justify-content: center;  
+    }
+    *{
+        background: #ffffff;
+    }
+    form{
+        display: flex;
+        margin-left: 300px;
+    }
+    footer{
+        display: flex;
+    }
+    .box1{
+        min-width: 100%;
+    }  
+}
+
+
+

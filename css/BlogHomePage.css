@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import "footer.css";
-@import "card.css";
-@import "respond.css";
+@import url("../css/card.css");
+@import url("../css/footer.css");
+@import url("../css/respond.css");
 *{
     font-family: Playfair Display;
 }
@@ -13,7 +13,7 @@
 }
 img{
     height: 300px;
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: auto;
     display: block;
 }
@@ -24,6 +24,7 @@ form{
     text-align: right;
     margin-top: -5px;
 }
+
 
 
 

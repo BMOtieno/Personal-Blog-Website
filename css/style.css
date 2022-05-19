@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
-@import "BlogPost.css";
-@import "box.css";
-@import "responsive.css";
+@import url("../css/BlogPost.css");
+@import url("../css/box.css");
+@import url("../css/responsive.css");
 *{
     background: url("https://st.hzcdn.com/simgs/42e12a880838acb1_4-7690/home-design.jpg");
     color: #000000;

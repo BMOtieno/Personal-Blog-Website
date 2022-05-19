@@ -1,5 +1,5 @@
 /*for mobile phone sized screens */
-@media(min-width: 320px) and (max-width: 1050px){
+@media(min-width: 320px) and (max-width: 2080px){
     .wrapper{
         display: grid; 
         justify-content: center;  
@@ -7,14 +7,10 @@
     *{
         background: #ffffff;
     }
-    form{
-        display: flex;
-        margin-left: 300px;
-    }
-    footer{
-        display: flex;
-    }
     .box1{
-        min-width: 100%;
-    }  
+        min-width: 70%;
+    } 
+    img{
+        width: 100%;
+    } 
 }

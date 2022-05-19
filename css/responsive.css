@@ -1,16 +1,16 @@
-/*for mobile phone sized screens */
-@media(min-width: 320px) and (max-width: 1020px){
+/*for small sized screens */
+@media(max-width: 340px){
     .wrapper{
-        display: grid; 
-        justify-content: center;  
+        display: grid;
+        justify-content: center;
     }
-    *{
-        background: #ffffff;
-    }
-    .box1{
+    .box1, .box2, .box3, .box4{
         min-width: 70%;
-    } 
-    img{
-        width: 100%;
-    } 
+    }
+ }
+/*for mobile phone sized screens */
+@media(min-width: 341px) and (max-width: 1020px){
+    .box1, .box2, .box3, .box4{
+        min-width: 90%;
+    }
 }

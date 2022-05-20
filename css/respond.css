@@ -1,6 +1,7 @@
 /*for small sized screens */
 @media(max-width: 340px){
     .right-column, .left-column{
+        display: grid;
         grid-template-areas: 
         "ca"
         "cb"
@@ -9,10 +10,16 @@
         "ce"
         "cf";
     }
-}
-/*for mobile/tablet sized screens */
-@media(min-width: 341px) and (max-width: 2080px){
     img{
         width: 100%;
     }
+    .card{
+        width: 100%;
+        margin-left: 40px;
+    }
+    nav{
+        top: 2em;
+    }
+    
 }
+
